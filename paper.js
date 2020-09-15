@@ -21,9 +21,9 @@ class Paper{
            strokeWeight(3);
             fill(255,0,255);
             imageMode(CENTER);
-            image(this.image, 0, 0, this.width, this.height);
-            this.image.scale=0.5;
-         ellipse(0,0,this.r, this.r);
+            image(this.image, 0, 0, this.r, this.r);
+           // this.image.scale=0.5;
+        // ellipse(0,0,this.r, this.r);
           pop()
       }
 }
